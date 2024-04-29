@@ -541,8 +541,19 @@ passages.scrollTop = 0;
 #story {margin-left:0;}
 h1 {text-align:center;margin-top:25vh;}
 @media screen and (max-width: 800px) {#story {margin:0;}}
+#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
 &lt;/style&gt;
-
+&lt;video autoplay loop muted id=&quot;background-video&quot;&gt;
+    &lt;source src=&quot;https://github.com/doityourseph/nova-02/raw/6556325f08f55bb21e47b6c124b84f3dc2863c92/code_portal.mp4&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
 &lt;p class=&quot;glow2&quot;&gt;&lt;h1&gt;Nova&#39;s Sacrifice&lt;/h1&gt;&lt;/p&gt;
 &lt;&lt;if Save.autosave.ok() and Save.autosave.has()&gt;&gt;&lt;&lt;link &quot;Resume Session&quot;&gt;&gt;&lt;&lt;script&gt;&gt;Save.autosave.load()&lt;&lt;/script&gt;&gt;&lt;&lt;/link&gt;&gt; | &lt;&lt;/if&gt;&gt;&lt;&lt;link &quot;Log In&quot; &quot;P1&quot;&gt;&gt;&lt;&lt;/link&gt;&gt; | &lt;&lt;link &quot;Load Session&quot;&gt;&gt;&lt;&lt;run UI.saves()&gt;&gt;&lt;&lt;/link&gt;&gt; | &lt;&lt;link &quot;Settings&quot;&gt;&gt;&lt;&lt;run UI.settings()&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="13" name="StoryAuthor" tags="ui" position="300,300" size="100,100">DD000-G7</tw-passagedata><tw-passagedata pid="14" name="StoryCaption" tags="ui" position="300,200" size="100,100">&lt;i&gt;Welcome Amelia.&lt;/i&gt;</tw-passagedata><tw-passagedata pid="15" name="StoryDisplayTitle" tags="ui" position="300,100" size="100,100">&lt;p class=&quot;glow&quot;&gt;NOVA-02&lt;/p&gt;</tw-passagedata><tw-passagedata pid="16" name="StoryInit" tags="ui" position="200,300" size="100,100">&lt;&lt;set $chapter to &quot;Prologue_&quot;&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="StoryMenu" tags="ui" position="200,200" size="100,100">&lt;&lt;link &quot;Back&quot;&gt;&gt;&lt;&lt;if tags().includes(&quot;game-info&quot;)&gt;&gt;&lt;&lt;goto $return&gt;&gt;&lt;&lt;else&gt;&gt;&lt;&lt;run Engine.backward()&gt;&gt;&lt;&lt;/if&gt;&gt;&lt;&lt;/link&gt;&gt;</tw-passagedata><tw-passagedata pid="18" name="StorySubtitle" tags="ui" position="200,100" size="100,100">&lt;p class=&quot;reveal-animation2&quot;&gt;Content Loaded.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="19" name="C1P5" tags="" position="900,600" size="100,100">&lt;p class=&quot;typewriter&quot;&gt;&lt;span style=&quot;color:dodgerblue&quot;&gt;&lt;i&gt;&quot;Amelia, do not lose hope. I have been monitoring the situation and believe I have a way for us to fight back. But we must act, and act quickly!&quot; his voice urged determinedly.&lt;/i&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;reveal-animation&quot;&gt;
 [[Fight back with Nova-&gt;C1P6]]
