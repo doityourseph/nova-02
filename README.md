@@ -1,4 +1,4 @@
-<h1>Importing "nova-01" into "nova-02" Memory Banks</h1>
+<h1>Importing "nova-01" into "nova-02" Memory Banks by <i>Amelia Wong</i></h1>
 <h3>Description</h3>
 <p>This guide outlines the steps to import "nova-01" into "nova-02" memory banks, allowing you to incorporate the functionality of "nova-01" into the "nova-02" system. By following these steps, you can seamlessly integrate the desired features and capabilities of "nova-01" into your existing "nova-02" environment.</p>
 
@@ -20,5 +20,3 @@
 
 <h3>Conclusion</h3>
 By following these steps, you can successfully import "nova-01" into "nova-02" memory banks, enabling your system to benefit from the desired features and capabilities of "nova-01". This integration allows for an enhanced "nova-02" system while maintaining compatibility and efficient memory management.
-
-- Amelia Wong 
